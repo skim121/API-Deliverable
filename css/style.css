@@ -1,0 +1,77 @@
+:root{
+    --main: #0081a7;
+    --turq: #00afb9;
+    --cream: #fdfcdc;
+    --peach: #fed9b7; 
+    --red: #f07167;
+}
+
+
+body {
+    padding-top: 8%;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: var(--main);
+    text-align: center;
+    color: white;
+}
+
+#submitbutton{
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white; 
+    border-radius: 5px;
+    border: 2px solid white;
+    background: transparent;
+    cursor: pointer;
+    padding: 5px 20px;
+    margin-left: 10px;
+
+}
+
+#submitbutton:hover{
+    background: white;
+    color: var(--main);
+}
+
+#countries{
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 5px;
+    border: none;
+    background: white;
+    cursor: pointer;
+    padding: 5px;
+    width: 10%;
+}
+
+h1 {
+    font-size: 72px;
+}
+h2 {
+    font-size: 24px;
+}
+h3{
+    font-size: 24px;
+    color: var(--peach);
+    text-decoration: underline;
+}
+dl{
+    display:flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.datatitle{
+    color: var(--red);
+    font-weight: bold;
+}
+
+
+footer{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute; 
+    width: 100%; 
+    bottom: 0; 
+    font-size: 16px;
+}

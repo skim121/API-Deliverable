@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
+    <script src = "js/script.js" defer></script>
+    <link rel = "stylesheet" href = "css/style.css">
+    <title>Coronavirus Stats</title>
+</head>
+
+<body>
+    <h1>Coronavirus Statistics</h1>
+    <br>
+    <h2>Get the most recent Covid-19 statistics by country: </h2>
+    <form>
+        <!-- Creating a drop-down list because countries have to be typed the exact way it is listed in the DB -->
+        <select id="countries" name="countries">
+            <option value = "Afghanistan">Afghanistan</option>
+            <option value = "Albania">Albania</option>
+            <option value = "Algeria">Algeria</option>
+            <option value = "Argentina">Argentina</option>
+            <option value = "Australia">Australia</option>
+            <option value = "Bahamas">Bahamas</option>
+            <option value = "Belgium">Belgium</option>
+            <option value = "Brazil">Brazil</option>
+            <option value = "Canada">Canada</option>
+            <option value = "China">China</option>
+            <option value = "Colombia">Colombia</option>
+            <option value = "Costa Rica">Costa Rica</option>
+            <option value = "Dominican Republic">Dominican Republic</option>
+            <option value = "Ecuador">Ecuador</option>
+            <option value = "Egypt">Egypt</option>
+            <option value = "Finland">Finland</option>
+            <option value = "France">France</option>
+            <option value = "Ghana">Ghana</option>
+            <option value = "Guatemala">Guatemala</option>
+            <option value = "Hungary">Hungary</option>
+            <option value = "India">India</option>
+            <option value = "Iraq">Iraq</option>
+            <option value = "Italy">Italy</option>
+            <option value = "Japan">Japan</option>
+            <option value = "Kenya">Kenya</option>
+            <option value = "Korea, South">Korea, South</option>
+            <option value = "Libya">Libya</option>
+            <option value = "Mexico">Mexico</option>
+            <option value = "Morocco">Morocco</option>
+            <option value = "Netherlands">Netherlands</option>
+            <option value = "New Zealand">New Zealand</option>
+            <option value = "Oman">Oman</option>
+            <option value = "Peru">Peru</option>
+            <option value = "Philippines">Philippines</option>
+            <option value = "Qatar">Qatar</option>
+            <option value = "Russia">Russia</option>
+            <option value = "Saudi Arabia">Saudi Arabia</option>
+            <option value = "Singapore">Singapore</option>
+            <option value = "Somalia">Somalia</option>
+            <option value = "South Africa">South Africa</option>
+            <option value = "Spain">Spain</option>
+            <option value = "Switzerland">Switzerland</option>
+            <option value = "Tanzania">Tanzania</option>
+            <option value = "Thailand">Thailand</option>
+            <option value = "Turkey">Turkey</option>
+            <option value = "Uganda">Uganda</option>
+            <option value = "United Kingdom">United Kingdom</option>
+            <option value = "US">USA</option>
+            <option value = "Venezuela">Venezuela</option>
+            <option value = "Vietnam">Vietnam</option>
+            <option value = "Yemen">Yemen</option>
+            <option value = "Zimbabwe">Zimbabwe</option>
+        </select>
+        <input type="submit" id="submitbutton" value="Search" />
+    
+    </form>
+    <br>
+    <br>
+    
+    
+<div class="container">
+    <h3>  </h3>
+    <dl>
+        <div class=datatitle>
+            <dt>Number of Cases</dt>
+            <dt>Deaths</dt>
+            <dt>Population</dt>
+            <dt>Vaccinated</dt>
+            <dt> Partially Vaccinated</dt>
+        </div>
+        <div class="datanum">
+            <dd id="cases">N/A</dd>
+            <dd id="deaths">N/A</dd>
+            <dd id="pop">N/A</dd>
+            <dd id="vaccinated">N/A</dd>
+            <dd id="partvac">N/A</dd>
+        </div>
+    </dl>
+</div>
+
+</body>
+<footer>
+    <p> All data courtesy of Johns Hopkins University</p>
+</footer>
+</html>
